@@ -1,0 +1,58 @@
+table {
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 85%;
+    
+  }
+
+  .fail {
+    background-color: rgb(191, 85, 85); /* 빨간 배경색 */
+  }
+  
+  table td,
+  table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover {
+    background-color: #ddd;
+  }
+  
+  table th, tfoot td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4caf50;
+    color: white;
+  }
+
+  #button-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+
+  #button-container p{
+    font-size: 30px;
+  }
+
+  button{
+    width: 80px;
+    height: 40px;
+    margin-right: 11px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    outline: auto;
+    background-color: #FEEAE6;
+    border-color: #FEEAE6;
+    border-radius: 15px;
+    color: #442C2E;
+  }
+  

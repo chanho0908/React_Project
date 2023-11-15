@@ -1,0 +1,19 @@
+{
+  "name": "reactproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "C:/202144091ReactProject/maintable/public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "finalhandler": "^1.2.0",
+    "ngrok": "^5.0.0-beta.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.68.0"
+  }
+}
